@@ -7,8 +7,8 @@ export function TimeLine() {
   const [newTweet, setNewTweet] = useState('')
   const [tweets, setTweets] = useState([
     'meu primero tweet',
-    'teste',
-    'Pedro Caetano é muito lindo e esperto em ReactJS!'
+    'Aprendi muito sobre o React depois que vi a MasterClass da RocketSeat, junto com o Diego Fernandes',
+    'Aprendendo mais afundo sobre React'
   ])
 
   function createNewTweet(event: FormEvent) {
