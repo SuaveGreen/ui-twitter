@@ -41,7 +41,7 @@ export function Status() {
         <label htmlFor='tweet' className='flex flex-1 gap-3 items-center'>
           <img className='w-12 h-12 rounded-full' src='https://github.com/suavegreen.png' alt='Pedro Caetano' />
           <textarea 
-            className='placeholder:text-[#5b7083] flex-1 resize-none mt-4 font-medium text-lg outline-none' 
+            className='placeholder:text-[#5b7083] flex-1 resize-none mt-4 font-medium text-lg outline-none bg-transparent' 
             id='tweet' 
             placeholder='Tweet sua resposta' 
             value={newResposta}
