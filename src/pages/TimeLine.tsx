@@ -37,7 +37,7 @@ export function TimeLine() {
         <label htmlFor='tweet' className='flex gap-3'>
           <img className='w-12 h-12 rounded-full' src='https://github.com/suavegreen.png' alt='Pedro Caetano' />
           <textarea 
-            className='placeholder:text-[#5b7083] flex-1 resize-none mt-3 font-medium text-lg outline-none' 
+            className='placeholder:text-[#5b7083] flex-1 resize-none mt-3 font-medium text-lg outline-none bg-transparent' 
             id='tweet' 
             placeholder='O que está acontecendo agora?'
             value={newTweet}
